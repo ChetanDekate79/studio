@@ -1,0 +1,200 @@
+/* product.css */
+
+.product-main {
+    padding-top: 1vw;; /* Adjust the top padding as needed */
+    padding-left: 3vw;; /* Adjust the left padding as needed */
+    background-color: white;
+    padding-bottom: 3vw;
+}
+.p-middle{
+    display: flex;
+}
+.p-title {
+    text-align: left; /* Align the text to the left */
+    flex: 1; /* Allow the content to take up available space */
+}
+
+.p-title h2 {
+    font-size: 90px; /* Adjust the font size as needed */
+    color: #000000; /* Set your desired text color */
+    /* You can add more styling here as needed */
+    font-family: "syne", sans-serif;
+}
+.p-title p {
+    font-size: 18px; /* Adjust the font size as needed */
+    color: #000000; /* Set your desired text color */
+    /* You can add more styling here as needed */
+    font-family: "Work Sans", sans-serif;
+}
+.p-title h3 {
+    font-size: 26px; /* Adjust the font size as needed */
+    color: #000000; /* Set your desired text color */
+    /* You can add more styling here as needed */
+    font-family: "syne", sans-serif;
+}
+.p-line {
+    margin-top: -5vw; 
+    width: 45vw;
+    height: 2px; /* Adjust the height of the line as needed */
+    background-color: #000000; /* Change the background color to your desired color */
+    z-index: 1;
+  }
+  .p-star {
+    /* margin-top: 31vw;  */
+    margin-top: -5vw; 
+    position: absolute; /* Use absolute positioning to fix the "Fresh" text */
+  /* margin-left: -5vw; */
+  /* margin-left: 10vw; */
+  width: 60vw;
+    z-index: 1;
+  }
+  .p-top{
+    display: flex;
+    align-items: center;
+  }
+
+  .product-details {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    flex-wrap: nowrap; /* Prevent items from wrapping to the next line */
+    -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
+  }
+  .product-details-header {
+    flex: 0 0 auto; /* Allow flex item to shrink and grow as needed */
+    display: none;
+    align-items: center;
+    padding: 10px;
+  }
+  .product-details-header > div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Fill the available space */
+  }
+  .product-item {
+    /* display: flex; */
+    align-items: center;
+    text-align: left;
+    margin-bottom: 20px; /* Add spacing between product items */
+  }
+  
+  .product-item img {
+    width: 20vwpx; /* Adjust the image size as needed */
+    margin-right: 2vw; /* Add spacing between image and info */
+  }
+  
+  .product-info img {
+    width: 30px; /* Adjust the icon size as needed */
+  }
+  
+  .product-info h4 {
+    font-size: 26px; /* Adjust the title font size as needed */
+    margin: 5px 0;
+    font-family: "Syne", sans-serif;
+
+  }
+  
+  .product-info p {
+    font-size: 14px; /* Adjust the description font size as needed */
+    margin: 5px 0;
+    font-family: "work sans", sans-serif;
+    color: 
+    #51514d;
+    max-width: 20vw;
+
+  }
+.side-head-t{
+  display: none;
+}
+  .product-info-l h4 {
+    font-size: 26px; /* Adjust the title font size as needed */
+    margin: 5px 0;
+    font-family: "Syne", sans-serif;
+
+  }
+  
+  .product-info-l p {
+    font-size: 14px; /* Adjust the description font size as needed */
+    margin: 5px 0;
+    font-family: "work sans", sans-serif;
+    color: 
+    #51514d;
+    max-width: 10vw;
+
+  }
+  .product-info-l span {
+    font-size: 26px; /* Adjust the number font size as needed */
+    font-family: "Syne", sans-serif;
+
+  }
+  
+  .product-info span {
+    font-size: 26px; /* Adjust the number font size as needed */
+    font-family: "Syne", sans-serif;
+
+  }
+
+  .product-content {
+    display: flex;
+  }
+.p-arrow-t{
+  display: none;
+}
+  @media (max-width: 576px) {
+   .p-top{
+    max-width: 100vw;
+    top: 1vw;
+    display: block;
+   }
+   .product-main{
+    position: relative;
+    top: 15vw;
+   }
+   .p-arrow{
+   display: none;
+   }
+   .p-title h2{
+    font-size: 40px;
+   }
+   .p-star{
+    width: 100vw;
+   }
+   .p-star img {
+    width: 90vw
+   }
+   .product-details{
+    max-width: 95vw;
+   }
+   .product-details-header {
+    flex-direction: column;
+    align-items: inherit;
+    width: 90vw;
+  }
+
+  .product-details-header > div {
+    width: auto; /* Adjust as needed */
+  }
+  .side-head{
+    display: none;
+  }
+  .p-title h3{
+    font-size: 18px;
+  }
+  .p-title p{
+    font-size: 14px;
+    max-width: 80vw;
+    color: #939393;
+  }
+  .p-arrow-t {
+    display: block; /* Show the p-arrow-t in smartphone view */
+    /* position: fixed; */
+    right: 0;
+    bottom: 20px; /* Adjust the position as needed */
+    z-index: 999; /* Set an appropriate z-index */
+    margin-left:35vw;
+  }
+  .side-head-t{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  }

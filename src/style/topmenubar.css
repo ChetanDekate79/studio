@@ -1,0 +1,477 @@
+/* styles.css */
+.top-menu-bar-a{
+  display: none;
+}
+
+.top-menu-bar-b {
+  background-color: #000000;
+  color: #fff;
+  padding: 10px 0;
+  width: 50vw;
+  
+}
+
+.title{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid white;
+  height: 4vw;
+}
+.title-and-menu{
+  width: 100%;
+}
+/* Add this CSS to vertically center .home-main-b */
+.home-main-b {
+  background-color: black;
+  width: 90vw;
+  margin: 0 auto; /* Auto margin on left and right to horizontally center */
+  display: flex;
+  flex-direction: column; /* Stack h2 and h3 vertically */
+  /* justify-content: center; Vertically center the content */
+  align-items: center; /* Horizontally center the content */
+  height: 52vw; 
+  overflow: hidden;
+}
+
+.home-main-b h2,
+.home-main-b h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  line-height: 60px;
+  letter-spacing: 0em;
+  color: white;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.home-main-b h2 {
+  font-size: 40px;
+  text-align: left;
+  margin-right: 20px;
+}
+
+.home-main-b h3 {
+  font-size: 14px;
+  text-align: right;
+  font-weight: bold;
+}
+
+.menu-u {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-u li {
+  margin: 0 10px;
+  position: relative;
+}
+
+/* styles.css */
+.menu-u a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  transition: text-decoration 0.3s; /* Add a transition for smooth effect */
+}
+
+.menu-u a:hover {
+  text-decoration: underline; /* Underline when hovered */
+}
+
+
+.submenu {
+  /* position: absolute; */
+  top: 100%;
+  background-color: #333;
+  display: none;
+  list-style-type: none; /* Remove list bullets */
+}
+
+.menu-u li:hover .submenu {
+  display: block;
+}
+
+.submenu li {
+  margin: 0;
+}
+
+.submenu a {
+  padding: 10px;
+  display:grid;
+  font-size: 14px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 100;
+}
+.fresh h2 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 800;
+  font-size: 135px;
+  /* font-stretch:wider ; */
+  text-align: left; /* Align text to the left */
+  /* width: 750px; */
+  transform: scale(1.5, .8);
+}
+
+.fresh {
+  font-family: "Work Sans", sans-serif;
+  z-index: 1;
+  /* font-weight: 800; */
+  /* font-size: 150px; */
+  /* font-stretch: wider; */
+  text-align: left; /* Align text to the left */
+  /* width: 750px; */
+  transform: scale(.9, .8);
+  position: absolute; /* Use absolute positioning to fix the "Fresh" text */
+  left: 13vw; /* Adjust the left position to your preference */
+  top: 11vw; /* Adjust the top position to your preference */
+  color: white;
+  /* height: 2vw; */
+}
+
+.twenty h2 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 800;
+  font-size: 135px;
+  text-align: left;
+  transform: scale(1.5, 0.8);
+  color: transparent; /* Set text color to transparent */
+  -webkit-text-fill-color: transparent; /* For browser compatibility */
+  -webkit-text-stroke-width: 2px; /* Set text stroke width */
+  -webkit-text-stroke-color: white; /* Set text stroke color to white */
+}
+
+
+.twenty {
+  font-family: "Work Sans", sans-serif;
+  z-index: 1;
+  /* font-weight: 800; */
+  /* font-size: 150px; */
+  /* font-stretch: wider; */
+  text-align: left; /* Align text to the left */
+  /* width: 750px; */
+  transform: scale(.9, .8);
+  position: absolute; /* Use absolute positioning to fix the "Fresh" text */
+  left: 36vw; /* Adjust the left position to your preference */
+  top: 18vw; /* Adjust the top position to your preference */
+  /* height: 2vw; */
+}
+.line {
+  position: relative; /* Use absolute positioning to fix the "Fresh" text */
+margin-left: -5vw;
+margin-top: -10vw;
+margin-bottom: 5vw;
+  width: 70vw;
+  height: 2px; /* Adjust the height of the line as needed */
+  background-color: #ffffff; /* Change the background color to your desired color */
+  z-index: 1;
+}
+.more {
+  top: 2vw;
+  left: 10vw;
+  position: relative;
+  height: 2vw;
+  width: 7vw;
+  text-align: center;
+  border: 1px solid #ffffff;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  align-items: center; /* Vertically center the text */
+}
+
+.more h3 {
+  text-align: center;
+  /* Remove the align-items property from here */
+  color: #fff;
+}
+.more img {
+  align-items: center;
+  align-content: center;
+}
+
+.star {
+  top: -10vw; 
+  position: relative; /* Use absolute positioning to fix the "Fresh" text */
+/* margin-left: -5vw; */
+left: 15vw;
+  z-index: 1;
+}
+
+.p-arrow{
+  margin-left: 30vw;
+}
+
+/* Add space between the images in the .p-arrow container */
+.p-arrow img {
+  margin-right: 5vw; /* Adjust the margin-right to the desired spacing */
+}
+
+.look h2 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 800;
+  font-size: 135px;
+  /* font-stretch:wider ; */
+  text-align: left; /* Align text to the left */
+  /* width: 750px; */
+  transform: scale(1.5, .8);
+}
+
+
+.look {
+  font-family: "Work Sans", sans-serif;
+  z-index: 1;
+  /* font-weight: 800; */
+  /* font-size: 150px; */
+  /* font-stretch: wider; */
+  text-align: left; /* Align text to the left */
+  /* width: 750px; */
+  transform: scale(.9, .8);
+  position: absolute; /* Use absolute positioning to fix the "Fresh" text */
+  left: 18vw; /* Adjust the left position to your preference */
+  top: 24vw; /* Adjust the top position to your preference */
+  /* height: 2vw; */
+  color: white;
+}
+
+
+.price h2 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 14px;
+  text-align: left;
+  color: #000000;
+  line-height: 1; /* Adjust line-height to minimize space between lines */
+}
+
+.price {
+  font-family: "Work Sans", sans-serif;
+  z-index: 1;
+  text-align: left;
+  width: 10vw;
+  position: absolute;
+  right: 0.5vw;
+  top: 42vw;
+}
+
+.person {
+  font-family: "Work Sans", sans-serif;
+  /* font-weight: 800; */
+  /* font-size: 150px; */
+  /* font-stretch: wider; */
+  text-align: left; /* Align text to the left */
+  bottom: -8vw;
+  /* width: 750px; */
+  position: absolute; /* Use absolute positioning to fix the "Fresh" text */
+  right: 8vw; /* Adjust the left position to your preference */
+  z-index: 1;
+}
+
+.circle {
+  font-family: "Work Sans", sans-serif;
+  /* font-weight: 800; */
+  /* font-size: 150px; */
+  /* font-stretch: wider; */
+  text-align: left; /* Align text to the left */
+  /* width: 750px; */
+  position: absolute; /* Use absolute positioning to fix the "Fresh" text */
+  right: 6vw; /* Adjust the left position to your preference */
+  bottom:12vw;
+  z-index: 0;
+}
+.orange {
+  position: absolute;
+  top: 25vw;
+  right: 0vw;
+  width: 992px;
+  height: 352px;
+  background-color: #F07E15;
+  z-index: 0;
+  backdrop-filter: blur(5px); /* Adjust the blur value as needed */
+  background-clip: content-box; /* Apply backdrop-filter only to the content, not padding or border */
+}
+.menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  background-color: black; /* Background color for the menu */
+  border-radius: 10px; /* Optional: Rounded corners */
+}
+
+.menu-list li {
+  margin-bottom: 10px;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  display: block;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+.menu-link:hover {
+  background-color: #333; /* Change the background color on hover */
+}
+
+.hamburger-icon {
+  position: relative;
+  left: 10px; /* Adjust as needed for the desired placement */
+  top: 20%; /* Vertically center the icon */
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Add spacing between bars */
+  width: 25px; /* Adjust width as needed */
+  height: 20px; /* Adjust height as needed */
+  background-color: black; /* Set the background color */
+  padding: 5px; /* Add padding for spacing */
+}
+.t-bar {
+  width: 25px;
+  height: 3px;
+  margin: 3px 0;
+  background-color: #ffffff; /* Adjust the color as needed */
+}
+
+.hamburger-icon.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger-icon.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger-icon.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .top-menu-bar-b {
+    width: 90vw;
+  }
+ 
+
+  .title h2 {
+    font-size: 30px;
+  }
+
+  .home-main-b h3 {
+    font-size: 12px;
+  }
+.top-menu-bar-a{
+display: block;
+}
+  .menu-u a {
+    font-size: 12px;
+  }
+
+  .submenu a {
+    font-size: 12px;
+  }
+
+  .fresh h2 {
+    font-size: 60px;
+    left: 10vw;
+    top: 10vw;
+  }
+
+  .fresh {
+    left: 10vw;
+    z-index: 2;
+    top: 80vw;
+    font-size: 40px;
+  }
+  .twenty{
+    left: 10vw;
+    z-index: 2;
+    top: 80vw;
+    font-size: 40px;
+  }
+  .twenty h2 {
+    font-size: 50px;
+    left: 20vw;
+    top: 17vw;
+    position: relative;
+  }
+  .orange{
+    display: block;
+    top: 70vw;
+  }
+
+  .look{
+    left: 10vw;
+    z-index: 2;
+    top: 80vw;
+    font-size: 40px;
+  }
+  .look h2 {
+    font-size: 60px;
+    left: 5vw;
+    top: 25vw;
+    position: relative;
+  }
+  .circle{
+    position: absolute;
+    top: 24vw;
+    left: 50vw;
+    z-index: 0;
+  }
+  .circle img {
+    width: 70vw;
+    height: 70vw;
+  }
+  .home-main-b h3 {
+    display: none;
+  }
+  .menu-u{
+display: none;
+  }
+  .star{
+    z-index: 2;
+    top: 127vw;
+    position: absolute;
+    left: 30vw;
+  }
+  .more{
+    margin-top: 40vw;
+    width: 20vw;
+    height: 4vw;
+    margin-left: 4vw;
+    position: relative;
+  }
+  .price{
+    display: none;
+  }
+  .more h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    font-family: "Work Sans", sans-serif;
+
+    /* Remove the align-items property from here */
+  }
+  .title{
+    height: 18vw;
+  }
+
+  .person{
+    left: 20vw;
+    overflow: hidden;
+    width:80vw
+  }
+  .person img {
+height: 599.3px;
+top: 5vw;
+  }
+.line{
+  margin-top: 80vw;
+}
+}

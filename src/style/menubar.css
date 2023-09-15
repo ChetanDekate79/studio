@@ -1,0 +1,94 @@
+/* topmenubar.css */
+
+/* Style the top menu bar container */
+.top-menu-bar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(25, 25, 25, 1);
+    color: #fff;
+    padding: 10px;
+    height: 1.4vw;
+  }
+  
+  /* Style the left content section */
+  .left-content {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  .left-text {
+    /* margin-right: 20px; */
+    font-size: 14px;
+    color: #626262;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .left-images img {
+    width: 20px;
+    height: 12px;
+    margin-left: 1vw;
+    margin-right: 0.5vw;
+    
+  }
+  
+  /* Style the menu */
+  .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  /* Style the right content section */
+  .right-content {
+    display: flex;
+    align-items: center;
+  }
+.top-inner{
+  display: flex;
+  justify-content: space-between; /* Spread content with space on both sides */
+  align-items: center; /* Center vertically */
+  width: 90vw;
+  padding: 0 1vw; /* Add small padding on both sides */
+}
+  .right-text{
+    font-size: 10px;
+    color: #626262;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 2vw;
+  }
+  .right-content p{
+    font-size: 10px;
+    color: #626262;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 1vw;
+  }
+  
+  .right-images img {
+  margin-right: 1vw;
+   
+  }
+  
+  /* Add any additional styles as needed */
+  @media (max-width: 768px) {
+    .left-text{
+      font-size: 9px;
+    }
+    .orange{
+      top:80vw;
+    }
+  }
